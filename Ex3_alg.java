@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class Ex3_alg {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scr = new Scanner(System.in);
         System.out.print("Введите нужное число элементов массива: ");
-        int countarrey = sc.nextInt();
-        int [] array = new int[countarrey];
+        int count = scr.nextInt();
+        int [] array = new int[count];
         for (int i = 0; i < array.length; i++) {
             array[i] = sc.nextInt();
         }
