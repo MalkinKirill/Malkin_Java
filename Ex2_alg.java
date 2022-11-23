@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Ex2_alg {
     public static void main(String[] args) {
-        Scanner str = new Scanner(System.in);
-        String a = str.nextLine();
+        Scanner scr = new Scanner(System.in);
+        String a = scr.nextLine();
         if (a.equals("Вячеслав") || a.equals("вячеслав")) {
             System.out.println("Привет, Вячеслав");
         } else {
